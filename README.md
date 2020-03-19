@@ -56,10 +56,6 @@ void loop() {
   delay(1000);
 }
 
-If you run the code it wil look like this: 
-
-![dfsg](https://user-images.githubusercontent.com/61006702/77056929-7595f800-69d3-11ea-9406-3d918c3a53cc.png)
-
 # picture of the boards
 ![dtgh](https://user-images.githubusercontent.com/61006702/77057149-cefe2700-69d3-11ea-86fc-49622920e7b3.jpg)
 
