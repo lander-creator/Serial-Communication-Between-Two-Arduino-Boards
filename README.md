@@ -13,34 +13,51 @@ Jumper wires
 
 For the arduino that is the sender:
 
+
+
 char mystr[5] = "Hello"; //String data
 
+
 void setup() {
+
   // Begin the Serial at 9600 Baud
+  
   Serial.begin(9600);
+  
 }
 
 void loop() {
+
   Serial.write(mystr,5); //Write the serial data
+  
   delay(1000);
+  
 }
 
 For the arduino that is the reciever:
 
+
+
 char mystr[10]; //Initialized variable to store recieved data
 
 void setup() {
+
   // Begin the Serial at 9600 Baud
+  
   Serial.begin(9600);
 }
 
 void loop() {
+
   Serial.readBytes(mystr,5); //Read the serial data and store in var
+  
   Serial.println(mystr); //Print data on Serial Monitor
+
   delay(1000);
 }
 
 If you run the code it wil look like this: 
+
 ![dfsg](https://user-images.githubusercontent.com/61006702/77056929-7595f800-69d3-11ea-9406-3d918c3a53cc.png)
 
 # picture of the boards
